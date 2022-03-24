@@ -1,0 +1,69 @@
+{
+    "title":"BIG",
+    "item": {
+        "stack":{
+            "type":"vertical",
+            "spacing":20,
+            "items":[
+                {
+                   "image":{
+                       "value":{
+                           "local": {
+                               "name": "Unknown.png"
+                           }
+                       }
+                   }
+                },
+                {
+                    "big": {}
+                },
+                {
+                    "stack":{
+                        "type":"horizontal",
+                        "items": [
+                            {
+                                "empty":{
+                                    "size":{
+                                       "width":30.0,
+                                       "height":15.0
+                                    }
+                                }
+                            },
+                            {
+                               "button":{
+                                   "text":{
+                                       "value": "second",
+                                       "color": {
+                                           "red":0.5,
+                                           "green":0.5,
+                                           "blue":0.5
+                                       }
+                                   },
+                                  "route":"second",
+                                  "cornerRadius":15,
+                                  "backgroundColor":{
+                                     "red":0.2,
+                                     "green":0.2,
+                                     "blue":0.2
+                                  },
+                                  "size":{
+                                     "width":60.0,
+                                     "height":15.0
+                                  }
+                               }
+                            },
+                            {
+                                "empty":{
+                                    "size":{
+                                       "width":10.0,
+                                       "height":15.0
+                                    }
+                                }
+                            },
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

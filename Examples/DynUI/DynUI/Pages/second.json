@@ -1,0 +1,115 @@
+{
+    "title":"SECOND",
+    "item": {
+        "stack":{
+            "type": "vertical",
+           "spacing":20,
+           "items":[
+              {
+                 "label":{
+                     "text":{
+                         "value": "SECOND PAGE 2"
+                     },
+                    "size":{
+                       "width":100.0,
+                       "height":20.0
+                    }
+                 }
+              },
+              {
+                 "collection":{
+                     "size":{
+                        "width":100.0,
+                        "height":30.0
+                     },
+                     "defaultItemSize": {
+                         "widthConstant":true,
+                         "heightConstant":true,
+                         "width":200.0,
+                         "height":200.0
+                     },
+                    "items":[
+                       {
+                          "button":{
+                              "text":{
+                                  "value": "home"
+                              },
+                             "route":"home",
+                             "backgroundColor":{
+                                "red":0.5,
+                                "green":0.2,
+                                "blue":0.8
+                             },
+                             "size":{
+                                "width":33.0,
+                                "height":30.0
+                             }
+                          }
+                       },
+                       {
+                          "button":{
+                              "text":{
+                                  "value": "home"
+                              },
+                             "route":"home",
+                             "backgroundColor":{
+                                "red":0.5,
+                                "green":0.5,
+                                "blue":0.7
+                             },
+                             "size":{
+                                "width":33.0,
+                                "height":40.0
+                             }
+                          }
+                       },
+                       {
+                          "button":{
+                              "text":{
+                                  "value": "home"
+                              },
+                             "route":"home",
+                             "backgroundColor":{
+                                "red":0.8,
+                                "green":0.5,
+                                "blue":0.2
+                             },
+                             "size":{
+                                "width":33.0,
+                                "height":50.0
+                             }
+                          }
+                       },
+                       {
+                          "button":{
+                              "text":{
+                                  "value": "home"
+                              },
+                             "route":"home",
+                             "backgroundColor":{
+                                "red":0.8,
+                                "green":0.8,
+                                "blue":0.8
+                             },
+                             "size":{
+                                "width":50.0,
+                                "height":20.0
+                             }
+                          }
+                       }
+                    ]
+                 }
+              },
+              {
+                 "image":{
+                     "value":{
+                         "local": {
+                             "name": "Unknown.png"
+                         }
+                     }
+                 }
+              }
+           ]
+        }
+     }
+}

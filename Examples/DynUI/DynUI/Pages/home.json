@@ -1,0 +1,345 @@
+{
+    "title":"HOME",
+    "item": {
+        "scroll":{
+            "item": {
+                "stack":{
+                    "type":"vertical",
+                   "spacing":20,
+                   "items":[
+                      {
+                         "image":{
+                             "value":{
+                                 "local": {
+                                     "name": "Unknown.png"
+                                 }
+                             }
+                         }
+                      },
+                      {
+                          "stack":{
+                              "type":"horizontal",
+                              "items": [
+                                  {
+                                      "empty":{
+                                          "size":{
+                                             "width":30.0,
+                                          }
+                                      }
+                                  },
+                                  {
+                                     "button":{
+                                        "text":{
+                                            "value": " NICE BUTTON",
+                                            "size": 25,
+                                            "color": {
+                                                "red":1,
+                                                "green":1,
+                                                "blue":1
+                                            }
+                                        },
+                                        "icon": {
+                                            "system": {
+                                                "name": "square.and.arrow.down",
+                                                "configuration": {
+                                                    "color": {
+                                                        "red":1,
+                                                        "green":1,
+                                                        "blue":1
+                                                    }
+                                                },
+                                            }
+                                        },
+                                        "route":"second",
+                                        "cornerRadius":20,
+                                        "backgroundColor":{
+                                           "red":0.2,
+                                           "green":0.2,
+                                           "blue":0.2
+                                        },
+                                        "size":{
+                                            "heightConstant":true,
+                                           "width":60.0,
+                                           "height":80
+                                        }
+                                     }
+                                  },
+                                  {
+                                      "empty":{
+                                          "size":{
+                                             "width":10.0,
+                                          }
+                                      }
+                                  },
+                              ]
+                          }
+                      },
+                      {
+                         "stack":{
+                             "type":"horizontal",
+                            "spacing":20,
+                            "items":[
+                               {
+                                  "button":{
+                                      "text":{
+                                          "value": "CUSTOM ITEM",
+                                          "size": 13,
+                                          "color": {
+                                              "red":1,
+                                              "green":1,
+                                              "blue":1
+                                          }
+                                      },
+                                     "route":"custom",
+                                     "backgroundColor":{
+                                        "red":0.5,
+                                        "green":0.5,
+                                        "blue":0.8
+                                     },
+                                     "size":{
+                                         "conformity": true,
+                                        "width":33
+                                     }
+                                  }
+                               },
+                               {
+                                  "button":{
+                                      "text":{
+                                          "value": "",
+                                          "size": 13,
+                                          "color": {
+                                              "red":1,
+                                              "green":1,
+                                              "blue":1
+                                          }
+                                      },
+                                      "backgroundImage": {
+                                          "local": {
+                                              "name": "robot.png"
+                                          }
+                                      },
+                                     "route":"big",
+                                     "backgroundColor":{
+                                        "red":0.5,
+                                        "green":0.5,
+                                        "blue":0.2
+                                     }
+                                  }
+                               },
+                               {
+                                  "button":{
+                                      "text":{
+                                          "value": "BIG ITEM",
+                                          "size": 13,
+                                          "color": {
+                                              "red":1,
+                                              "green":1,
+                                              "blue":1
+                                          }
+                                      },
+                                     "route":"big",
+                                     "backgroundColor":{
+                                        "red":0.5,
+                                        "green":0.5,
+                                        "blue":0.2
+                                     },
+                                     "size":{
+                                         "conformity": true,
+                                        "width":33
+                                     }
+                                  }
+                               }
+                            ]
+                         }
+                      },
+                      {
+                         "collection":{
+                             "size":{
+                                "width":100.0,
+                                "height":30.0
+                             },
+                             "defaultItemSize": {
+                                 "widthConstant":true,
+                                 "heightConstant":true,
+                                 "width":200.0,
+                                 "height":200.0
+                             },
+                            "items":[
+                               {
+                                  "button":{
+                                      "text":{
+                                          "value": "second1"
+                                      },
+                                     "route":"second",
+                                     "backgroundColor":{
+                                        "red":0.5,
+                                        "green":0.2,
+                                        "blue":0.8
+                                     },
+                                     "size":{
+                                        "width":33.0,
+                                        "height":30.0
+                                     }
+                                  }
+                               },
+                               {
+                                  "stack":{
+                                      "type":"vertical",
+                                      "items": [
+                                          {
+                                              "button":{
+                                                  "text":{
+                                                      "value": "second2_1"
+                                                  },
+                                                 "route":"second",
+                                                 "backgroundColor":{
+                                                    "red":0.5,
+                                                    "green":0.5,
+                                                    "blue":0.7
+                                                 },
+                                                 "size":{
+                                                    "width":100.0,
+                                                    "height":50.0
+                                                 }
+                                              }
+                                          },
+                                          {
+                                              "button":{
+                                                  "text":{
+                                                      "value": "second2_2"
+                                                  },
+                                                 "route":"second",
+                                                 "backgroundColor":{
+                                                    "red":0.9,
+                                                    "green":0.2,
+                                                    "blue":0.4
+                                                 },
+                                                 "size":{
+                                                    "width":100.0,
+                                                    "height":50.0
+                                                 }
+                                              }
+                                          }
+                                      ],
+                                     "size":{
+                                        "width":33.0,
+                                        "height":40.0
+                                     }
+                                  }
+                               },
+                               {
+                                  "button":{
+                                      "text":{
+                                          "value": "second3"
+                                      },
+                                     "route":"second",
+                                     "backgroundColor":{
+                                        "red":0.8,
+                                        "green":0.5,
+                                        "blue":0.2
+                                     },
+                                     "size":{
+                                        "width":33.0,
+                                        "height":50.0
+                                     }
+                                  }
+                               },
+                               {
+                                  "button":{
+                                      "text":{
+                                          "value": "ALERT"
+                                      },
+                                     "route":"alert;KEK;WAT?",
+                                     "backgroundColor":{
+                                        "red":0.8,
+                                        "green":0.8,
+                                        "blue":0.8
+                                     },
+                                     "size":{
+                                         "conformity": true,
+                                        "height":20.0
+                                     }
+                                  }
+                               },
+                               {
+                                  "button":{
+                                      "text":{
+                                          "value": "ALERT2?"
+                                      },
+                                     "route":"alert;как дела;у тебя?",
+                                     "backgroundColor":{
+                                        "red":0.2,
+                                        "green":0.5,
+                                        "blue":0.8
+                                     }
+                                  }
+                               },
+                               {
+                                  "button":{
+                                      "text":{
+                                          "value": "second1"
+                                      },
+                                     "route":"second",
+                                     "backgroundColor":{
+                                        "red":0.5,
+                                        "green":0.2,
+                                        "blue":0.8
+                                     },
+                                     "size":{
+                                        "width":45.0,
+                                        "height":45.0
+                                     }
+                                  }
+                               },
+                               {
+                                  "button":{
+                                      "text":{
+                                          "value": "second1"
+                                      },
+                                     "route":"second",
+                                     "backgroundColor":{
+                                        "red":0.5,
+                                        "green":0.8,
+                                        "blue":0.8
+                                     },
+                                     "size":{
+                                        "width":45.0,
+                                        "height":45.0
+                                     }
+                                  }
+                               },
+                               {
+                                  "button":{
+                                      "text":{
+                                          "value": "second1"
+                                      },
+                                     "route":"second",
+                                     "backgroundColor":{
+                                        "red":0.2,
+                                        "green":0.8,
+                                        "blue":0.2
+                                     },
+                                     "size":{
+                                        "width":100.0,
+                                        "height":20.0
+                                     }
+                                  }
+                               }
+                            ]
+                         }
+                      },
+                      {
+                         "image":{
+                             "value":{
+                                 "local": {
+                                     "name": "Unknown.png"
+                                 }
+                             }
+                         }
+                      }
+                   ]
+                }
+             }
+        }
+    }
+}

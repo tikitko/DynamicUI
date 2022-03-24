@@ -1,0 +1,23 @@
+{
+    "title":"CUSTOM",
+    "item": {
+        "stack":{
+            "type":"vertical",
+            "spacing":20,
+            "items":[
+                {
+                    "web": {
+                        "url": "https://developer.apple.com/documentation/webkit/wkwebview",
+                        "size":{
+                           "width":100.0,
+                           "height":50.0
+                        }
+                    }
+                },
+                {
+                    "custom_label": "variant1"
+                }
+            ]
+        }
+    }
+}
